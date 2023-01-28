@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dmytro\\Desktop\\TestCases — копия (2)\\TestFramework\\TestFramework.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dmytro\\Desktop\\TestCases — копия (2)\\TestFramework\\TestFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dmytro\\Desktop\\TestCases — копия (2)\\TestFramework\\TestFramework.csproj",
+        "projectName": "TestFramework",
+        "projectPath": "C:\\Users\\Dmytro\\Desktop\\TestCases — копия (2)\\TestFramework\\TestFramework.csproj",
+        "packagesPath": "C:\\Users\\Dmytro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dmytro\\Desktop\\TestCases — копия (2)\\TestFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dmytro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.4.1, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.16.2, )"
+            },
+            "NUnit.Extension.TeamCityEventListener": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.InternetExplorer.WebDriver": {
+              "target": "Package",
+              "version": "[3.150.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[109.0.5414.7400, )"
+            },
+            "Selenium.WebDriver.GeckoDriver.Win64": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "Selenium.WebDriver.WaitExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
